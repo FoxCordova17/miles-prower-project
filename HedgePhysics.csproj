@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8B794FC-4069-4D39-8040-8FB16B9DA464}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="HedgePhysics.Plugins.csproj">
+      <Project>{97D2C8A1-6ABC-2F2F-63E3-AC1432888FBC}</Project>
+      <Name>HedgePhysics.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DeferredCustomLights\CustomLight.cs" />
+    <Compile Include="Assets\DeferredCustomLights\CustomLightRenderer.cs" />
+    <Compile Include="Assets\DeferredDecals\Decal.cs" />
+    <Compile Include="Assets\DeferredDecals\DeferredDecalRenderer.cs" />
+    <Compile Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScattering.cs" />
+    <Compile Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScatteringDeferred.cs" />
+    <Compile Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScatteringSun.cs" />
+    <Compile Include="Assets\GameplayScripts\Action00_Regular.cs" />
+    <Compile Include="Assets\GameplayScripts\Action01_Jump.cs" />
+    <Compile Include="Assets\GameplayScripts\Action02_Homing.cs" />
+    <Compile Include="Assets\GameplayScripts\Action03_SpinDash.cs" />
+    <Compile Include="Assets\GameplayScripts\Action04_Hurt.cs" />
+    <Compile Include="Assets\GameplayScripts\Action05_Rail.cs" />
+    <Compile Include="Assets\GameplayScripts\ActionManager.cs" />
+    <Compile Include="Assets\GameplayScripts\AnalogDebug.cs" />
+    <Compile Include="Assets\GameplayScripts\AngleTest.cs" />
+    <Compile Include="Assets\GameplayScripts\CameraControl.cs" />
+    <Compile Include="Assets\GameplayScripts\CameraFacing.cs" />
+    <Compile Include="Assets\GameplayScripts\CameraTriggerData.cs" />
+    <Compile Include="Assets\GameplayScripts\CheckIfLoaded.cs" />
+    <Compile Include="Assets\GameplayScripts\CheckPointData.cs" />
+    <Compile Include="Assets\GameplayScripts\DeactivateOnStart.cs" />
+    <Compile Include="Assets\GameplayScripts\DebugLoadStage.cs" />
+    <Compile Include="Assets\GameplayScripts\DebugTest.cs" />
+    <Compile Include="Assets\GameplayScripts\DebugUI.cs" />
+    <Compile Include="Assets\GameplayScripts\DissolveOverTime.cs" />
+    <Compile Include="Assets\GameplayScripts\EnemyBhysics.cs" />
+    <Compile Include="Assets\GameplayScripts\EnemyHealth.cs" />
+    <Compile Include="Assets\GameplayScripts\EnemySpawner.cs" />
+    <Compile Include="Assets\GameplayScripts\EnemySpawnerEternal.cs" />
+    <Compile Include="Assets\GameplayScripts\FlameControl.cs" />
+    <Compile Include="Assets\GameplayScripts\GunBettleControl.cs" />
+    <Compile Include="Assets\GameplayScripts\HedgeCamera.cs" />
+    <Compile Include="Assets\GameplayScripts\HomingAttackControl.cs" />
+    <Compile Include="Assets\GameplayScripts\HurtControl.cs" />
+    <Compile Include="Assets\GameplayScripts\LevelProgressControl.cs" />
+    <Compile Include="Assets\GameplayScripts\LoadingScreenControl.cs" />
+    <Compile Include="Assets\GameplayScripts\MonitorData.cs" />
+    <Compile Include="Assets\GameplayScripts\Monitors_Interactions.cs" />
+    <Compile Include="Assets\GameplayScripts\MotobugControl.cs" />
+    <Compile Include="Assets\GameplayScripts\MouseOrbitImproved.cs" />
+    <Compile Include="Assets\GameplayScripts\MovingPlatformControl.cs" />
+    <Compile Include="Assets\GameplayScripts\MovingRing.cs" />
+    <Compile Include="Assets\GameplayScripts\Objects_Interaction.cs" />
+    <Compile Include="Assets\GameplayScripts\PlayerBhysics.cs" />
+    <Compile Include="Assets\GameplayScripts\PlayerBinput.cs" />
+    <Compile Include="Assets\GameplayScripts\PlayerPhysics.cs" />
+    <Compile Include="Assets\GameplayScripts\PlayerSkin.cs" />
+    <Compile Include="Assets\GameplayScripts\PlayerSphysics.cs" />
+    <Compile Include="Assets\GameplayScripts\Rail.cs" />
+    <Compile Include="Assets\GameplayScripts\Rail_Interaction.cs" />
+    <Compile Include="Assets\GameplayScripts\Rep.cs" />
+    <Compile Include="Assets\GameplayScripts\RingGiverControl.cs" />
+    <Compile Include="Assets\GameplayScripts\RotateRing.cs" />
+    <Compile Include="Assets\GameplayScripts\SceneController.cs" />
+    <Compile Include="Assets\GameplayScripts\SetPosition.cs" />
+    <Compile Include="Assets\GameplayScripts\ShieldGiverControl.cs" />
+    <Compile Include="Assets\GameplayScripts\SkinPosition.cs" />
+    <Compile Include="Assets\GameplayScripts\SonicEffectsControl.cs" />
+    <Compile Include="Assets\GameplayScripts\SonicSoundsControl.cs" />
+    <Compile Include="Assets\GameplayScripts\SpeedPadData.cs" />
+    <Compile Include="Assets\GameplayScripts\Spring_Proprieties.cs" />
+    <Compile Include="Assets\GameplayScripts\StageConpleteControl.cs" />
+    <Compile Include="Assets\GameplayScripts\TestDebug.cs" />
+    <Compile Include="Assets\Prototyping\LandingSound.cs" />
+    <Compile Include="Assets\Prototyping\LoadSound.cs" />
+    <Compile Include="Assets\Prototyping\PauseCotrol.cs" />
+    <Compile Include="Assets\Prototyping\Qualitysettings.cs" />
+    <Compile Include="Assets\Prototyping\SelectAtTheStart.cs" />
+    <Compile Include="Assets\Prototyping\SelectAtTheStartSlider.cs" />
+    <Compile Include="Assets\Prototyping\StageSelectControl.cs" />
+    <Compile Include="Assets\Prototyping\TitleScreenControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DeferredCustomLights\CustomLightShader.shader" />
+    <None Include="Assets\DeferredCustomLights\_ReadMe.txt" />
+    <None Include="Assets\DeferredDecals\DecalShaderDiffuseNormals.shader" />
+    <None Include="Assets\DeferredDecals\DecalShaderDiffuseOnly.shader" />
+    <None Include="Assets\DeferredDecals\DecalShaderNormalsOnly.shader" />
+    <None Include="Assets\DeferredDecals\_ReadMe.txt" />
+    <None Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScattering.cginc" />
+    <None Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScattering_Deferred.shader" />
+    <None Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScattering_Occlusion.shader" />
+    <None Include="Assets\Features\AtmosphericScattering\Code\AtmosphericScattering_Sky.shader" />
+    <None Include="Assets\Features\AtmosphericScattering\Shaders\CloudPlaneScatter.shader" />
+    <None Include="Assets\Features\AtmosphericScattering\Shaders\StandardScatterSpecularSurface.shader" />
+    <None Include="Assets\Features\AtmosphericScattering\Shaders\UnityPBSLighting.cginc" />
+    <None Include="Assets\Features\AtmosphericScattering\Shaders\UnityStandardSurface.cginc" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Prototyping\PrototypingObjects\Unlit-AlphaTest.shader" />
+    <None Include="Assets\Shaders\AlphaTest-DiffuseParticle.shader" />
+    <None Include="Assets\Shaders\Dissolving.shader" />
+    <None Include="Assets\Shaders\Particle Alpha Blend Diff.shader" />
+    <None Include="Assets\Shaders\SkyboxHDR.shader" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
+    <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
+    <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\Common.cginc" />
+    <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\Composition.cginc" />
+    <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\SeparableBlur.cginc" />
+    <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
+    <None Include="Assets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
+    <None Include="Assets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />
+    <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\DepthOfField\Resources\BokehSplatting.shader" />
+    <None Include="Assets\Standard Assets\Effects\DepthOfField\Resources\DepthOfField.shader" />
+    <None Include="Assets\Standard Assets\Effects\DepthOfField\Resources\MedianFilter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+    <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
+    <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
+    <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
