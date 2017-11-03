@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgePhysics.Plugins", "HedgePhysics.Plugins.csproj", "{97D2C8A1-6ABC-2F2F-63E3-AC1432888FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgePhysics", "HedgePhysics.csproj", "{A8B794FC-4069-4D39-8040-8FB16B9DA464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgePhysics.Editor.Plugins", "HedgePhysics.Editor.Plugins.csproj", "{A0288F52-F497-59C3-42B4-DB4F69B0D28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgePhysics.Editor", "HedgePhysics.Editor.csproj", "{717B3A28-9CED-C7BD-6FA1-366334054E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D2C8A1-6ABC-2F2F-63E3-AC1432888FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D2C8A1-6ABC-2F2F-63E3-AC1432888FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D2C8A1-6ABC-2F2F-63E3-AC1432888FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D2C8A1-6ABC-2F2F-63E3-AC1432888FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B794FC-4069-4D39-8040-8FB16B9DA464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B794FC-4069-4D39-8040-8FB16B9DA464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B794FC-4069-4D39-8040-8FB16B9DA464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B794FC-4069-4D39-8040-8FB16B9DA464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0288F52-F497-59C3-42B4-DB4F69B0D28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0288F52-F497-59C3-42B4-DB4F69B0D28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0288F52-F497-59C3-42B4-DB4F69B0D28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0288F52-F497-59C3-42B4-DB4F69B0D28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717B3A28-9CED-C7BD-6FA1-366334054E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717B3A28-9CED-C7BD-6FA1-366334054E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717B3A28-9CED-C7BD-6FA1-366334054E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717B3A28-9CED-C7BD-6FA1-366334054E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
